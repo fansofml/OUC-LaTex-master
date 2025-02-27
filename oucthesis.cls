@@ -411,6 +411,7 @@
 
 % 设置中英文标题格式
 \captionsetup[figure]{
+    justification = centering,
     labelsep=space,   % 中文标题和编号之间空格
     format=hang,      % 标题悬挂
     singlelinecheck=false,  % 允许多行显示
@@ -420,11 +421,12 @@
 }
 
 \captionsetup[table]{
+    justification = centering,
     labelsep=space,
     format=hang,
     singlelinecheck=false,
     font={small},
-    position=below,
+    position=above,
     skip=5pt
 }
 
